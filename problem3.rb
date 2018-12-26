@@ -3,6 +3,10 @@
 
 # What is the largest prime factor of the number 600851475143 ?
 
+def run!
+  puts primes(600_851_475_143).max
+end
+
 def primes(input)
   primes = []
   working_area = input.dup
@@ -16,4 +20,4 @@ def primes(input)
   primes
 end
 
-puts primes(600_851_475_143).max
+run! if $PROGRAM_NAME == __FILE__
