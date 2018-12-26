@@ -6,11 +6,12 @@
 def run!
   puts primes(600_851_475_143).max
 end
-
+require 'prime'
 def primes(input)
+  Prime.each(input)
   primes = []
   working_area = input.dup
-  (2..(input**0.5).ceil).each do |i|
+  Prime.each(input) do |i|
     while (working_area % i).zero?
       working_area /= i
       primes << i
