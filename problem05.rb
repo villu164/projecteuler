@@ -1,4 +1,4 @@
-load 'problem3.rb'
+load 'problem03.rb'
 
 # Smallest multiple
 # Problem 5

@@ -1,4 +1,4 @@
-load 'problem3.rb'
+load 'problem03.rb'
 
 # 10001st prime
 # Problem 7
