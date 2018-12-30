@@ -24,4 +24,4 @@ def more_than_n_divisors(n)
 end
 
 # 76576500
-puts more_than_n_divisors(500)
+puts more_than_n_divisors(1000)
